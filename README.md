@@ -1,7 +1,7 @@
-# xunjian
+# EMOS
 
 ### 运维系统模版
-> A Vue.js project
+> An EMOS build with Vue.js
 
 ## Build Setup
 
