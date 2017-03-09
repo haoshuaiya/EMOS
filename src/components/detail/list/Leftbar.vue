@@ -6,31 +6,35 @@
       </el-menu-item>
       <el-menu-item index="cpu" @click="routerGo('cpu')" >
         <strong>CPU</strong>
-        <p>15%</p>
+        <p>{{allState.cpu.used}}%</p>
       </el-menu-item>
       <el-menu-item index="logic" @click="routerGo('logic')">
         <strong>逻辑处理器</strong>
-        <p><span>20%</span>&nbsp;<span>30%</span></p>
+        <p>
+          <span v-for="logic in allState.logics">
+            {{logic.used}}%
+          </span>
+        </p>
       </el-menu-item>
       <el-menu-item index="load" @click="routerGo('load')">
         <strong>系统负载</strong>
-        <p>0.42</p>
+        <p>{{allState.load.used}}</p>
       </el-menu-item>
       <el-menu-item index="storage" @click="routerGo('storage')">
         <strong>内存</strong>
-        <p>890.99MiB / 988.90MiB (90%)</p>
+        <p>{{allState.storage.used}}MiB/{{allState.storage.all}}MiB({{(allState.storage.used/allState.storage.all).toFixed(2)*100}}%)</p>
       </el-menu-item>
       <el-menu-item index="connection" @click="routerGo('connection')">
         <strong>网络连接数</strong>
-        <p>30</p>
+        <p>{{allState.connection}}</p>
       </el-menu-item>
-      <template v-for="disk in disks">
+      <template v-for="disk in allState.disks">
         <el-menu-item :index="'disk/'+disk.name" @click="routerGo('disk',disk.name)">
           <strong>{{disk.name}}</strong>
-          <p>{{disk.usage}}</p>
+          <p>{{disk.used}}%</p>
         </el-menu-item>
       </template>
-      <template v-for="netcard in netcards">
+      <template v-for="netcard in allState.netcards">
         <el-menu-item :index="'netcard/'+netcard.name" @click="routerGo('netcard',netcard.name)">
           <strong>{{netcard.name}}</strong>
           <p><span>发送:</span>{{netcard.output}} B/s  &nbsp;&nbsp; <span>接收:</span>{{netcard.input}} B/s</p>
@@ -46,7 +50,7 @@
 
       }
     },
-    props:['disks','netcards'],
+    props:["allState"],
     computed:{
       sideIndex(){
         if(this.$route.path.split('/')[6]){

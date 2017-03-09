@@ -5,9 +5,11 @@ import App from './App'
 import router from './router'
 import ElementUI from  'element-ui'
 import 'element-ui/lib/theme-default/index.css'
+import IEcharts from 'vue-echarts-v3'
 Vue.config.productionTip = false
 
 Vue.use(ElementUI);
+Vue.use(IEcharts);
 /* eslint-disable no-new */
 new Vue({
     el: '#app',

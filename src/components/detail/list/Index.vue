@@ -1,6 +1,6 @@
 <template>
   <div class="list-main">
-    <left-bar :disks="disks" :netcards="netcards"></left-bar>
+    <left-bar :allState="allState"></left-bar>
     <router-view></router-view>
   </div>
 </template>
@@ -9,36 +9,37 @@
   export default{
     data(){
       return {
-        disks:[
-          {
-            name:'磁盘1',
-            usage:'20%'
-          },{
-            name:'磁盘2',
-            usage:'30%'
-          },{
-            name:'磁盘3',
-            usage:'88%'
-          },{
-            name:'磁盘4',
-            usage:'40%'
-          }
-        ],
-        netcards:[
-          {
-            name:'net 1',
-            input:2000,
-            output:1888
-          },{
-            name:'net 2',
-            input:1000,
-            output:88
-          },{
-            name:'net 3',
-            input:2555,
-            output:1999
-          }
-        ]
+        allState:{
+          cpu:{used:80},
+          logics:[
+            {name:'logic1',used:35},
+            {name:'logic2',used:44}
+          ],
+          load:{'used':0.44},
+          storage:{
+            'all':3000,
+            'used':999
+          },
+          connection:34,
+          disks:[
+            { "name":"disk1",
+              "used":44
+            },{
+              "name":"disk2",
+              "used":47
+            }
+          ],
+          netcards:[
+            { "name":"netcard01",
+              input:4999,
+              output:3455
+            },
+            {"name":"netcard02",
+              input:9999,
+              output:3489
+            }
+          ]
+        }
       }
     },
     components:{
@@ -49,5 +50,6 @@
 <style scoped>
   .list-main{
     margin-top: 20px;
+    display: flex;
   }
 </style>
