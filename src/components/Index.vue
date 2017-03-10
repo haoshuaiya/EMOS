@@ -5,22 +5,22 @@
       <div class="crumbs">
         <el-breadcrumb separator="/">
           <el-breadcrumb-item>
-            <i class="el-icon-setting"></i>总览
+            <i class="el-icon-setting"></i>  总览
           </el-breadcrumb-item>
         </el-breadcrumb>
       </div>
       <el-row class="plugins-tips" :border="false" type="flex" justify="space-around">
         <el-col :span="7" :offset="2">月度运维状况: <strong class="success">运营良好</strong></el-col>
         <el-col :span="9">当前服务器状况: <strong class="danger">差</strong></el-col>
-        <el-col :span="4" :offset="2">当前时间: &nbsp;2017-03-07 17:28:30</el-col>
+        <el-col :span="4" :offset="2">{{timeSet}} </el-col>
       </el-row>
-      <div class="crumbs">
+      <div class="crumbs btn-crumbs">
         <el-breadcrumb separator="/">
           <el-breadcrumb-item>
-            <i class="el-icon-setting"></i>服务器记录
+            <i class="el-icon-setting"></i>  服务器记录
           </el-breadcrumb-item>
         </el-breadcrumb>
-        <el-button type="primary" class="f-right view-all" >查看全部</el-button>
+        <el-button type="primary" class="view-all" >查看全部</el-button>
       </div>
       <el-table  :data="tableData" style="width: 100%" :row-class-name="infoKlass">
         <el-table-column   label="性质" :formatter="klassFormat"></el-table-column>
@@ -31,7 +31,7 @@
       <div class="crumbs" style="margin-top: 15px;">
         <el-breadcrumb separator="/">
           <el-breadcrumb-item>
-            <i class="el-icon-setting"></i>七日内所有服务器概览
+            <i class="el-icon-setting"></i>  七日内所有服务器概览
           </el-breadcrumb-item>
         </el-breadcrumb>
       </div>
@@ -67,28 +67,28 @@
             </div>
           </template>
         </el-table-column>
-        <el-table-column class-name="no-padding">
+        <el-table-column :label="dayArr[3]" class-name="no-padding">
           <template scope="scope">
             <div :class="'klass-'+scope.row.klass3" >
               {{scope.row.klass3}}
             </div>
           </template>
         </el-table-column>
-        <el-table-column  class-name="no-padding">
+        <el-table-column  :label="dayArr[4]" class-name="no-padding">
           <template scope="scope">
             <div :class="'klass-'+scope.row.klass4">
               {{scope.row.klass4}}
             </div>
           </template>
         </el-table-column>
-        <el-table-column  class-name="no-padding">
+        <el-table-column :label="dayArr[5]"  class-name="no-padding">
           <template scope="scope">
             <div :class="'klass-'+scope.row.klass5">
               {{scope.row.klass5}}
             </div>
           </template>
         </el-table-column>
-        <el-table-column class-name="no-padding">
+        <el-table-column :label="dayArr[6]" class-name="no-padding">
           <template scope="scope">
             <div :class="'klass-'+scope.row.klass6" >
               {{scope.row.klass6}}
@@ -107,6 +107,7 @@
   export default {
     data(){
       return {
+        timeSet:'',
         tableData: [{
           klass:1,
           school:'南京大学',
@@ -306,7 +307,11 @@
         this.$router.push('/main/detail/'+id+'/index');
       }
     },
-    filters:{
+    created(){
+      var that=this;
+      setInterval(function () {
+        that.timeSet = new Date().toLocaleString()
+      },1000);
     }
   }
 </script>
@@ -318,5 +323,8 @@
   }
   .view-all{
     margin-bottom: 10px;
+    position: absolute;
+    top:0;
+    right:0;
   }
 </style>

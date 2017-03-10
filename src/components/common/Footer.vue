@@ -14,7 +14,7 @@
     text-align: center;
   }
   .footer p{
-    line-height: 40px;
+    line-height: 50px;
   }
 </style>
 

@@ -1,6 +1,7 @@
 <template>
   <div>
     cpu
+
   </div>
 </template>
 <!--<script>-->

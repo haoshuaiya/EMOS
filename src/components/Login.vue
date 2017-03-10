@@ -18,6 +18,7 @@
             </el-button>
           </el-form-item>
         </el-form>
+        <p style="font-size:12px;line-height:20px;color:#999;text-align: left">Tips : 用户名和密码随便填。</p>
       </div>
     </div>
   </div>
@@ -32,32 +33,30 @@
         },
         rules: {
           username: [
-            { required: true, message: '请输入用户名', trigger: 'blur' }
+            {required: true, message: '请输入用户名'},
+            {min:3,max:15,message:'用户名在3到15个字符'}
+//            {type:'email',message:'不合法邮箱',trigger:'blur'}
           ],
           password: [
-            { required: true, message: '请输入密码', trigger: 'blur' }
+            {required: true, message: '请输入密码'}
           ]
         }
       }
     },
-    methods:{
-      submitForm(){
+    methods: {
+      submitForm(formName){
         const self =this;
-        if(self.ruleForm.username && self.ruleForm.password){
-          localStorage.setItem('username',self.ruleForm.username);
-          self.$router.push('/main')
-        }else{
-          console.log('error submit !')
-          return false;
-        }
+        self.$refs[formName].validate((valid) => {
+          if (valid) {
+            localStorage.setItem('username', self.ruleForm.username);
+            self.$router.push('/main')
+          } else {
+            console.log('error submit !')
+            return false;
+          }
+        })
       }
-    },
-//    beforeCreate(){
-//      let self =this
-//      if (localStorage.getItem('username')){
-//        self.$router.push('/main')
-//      }
-//    }
+    }
   }
 </script>
 <style scoped>
@@ -83,8 +82,8 @@
     font-weight: normal;
   }
   .login-main{
-    width:400px;
-    height:250px;
+    width:350px;
+    height:230px;
     background-color: #fff;
     padding:20px;
     margin:0 auto;
@@ -95,6 +94,5 @@
   }
   .login-btn{
     width:100%;
-    margin-top: 20px;
   }
 </style>

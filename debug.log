@@ -1,3 +1,4 @@
 [0308/093440.888:ERROR:process_reader_win.cc(233)] ReadMemory at 0x4f5000 of 45056 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
 [0308/093440.889:ERROR:crash_report_exception_handler.cc(111)] WriteEverything failed
 [0308/093440.890:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: 已尝试访问正在退出的过程。  (0xc000010a)
+[0309/141701.940:ERROR:http_transport_win.cc(50)] WinHttpSendRequest: 操作超时  (0x2EE2)
