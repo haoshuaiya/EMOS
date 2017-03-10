@@ -1,0 +1,2 @@
+webpackJsonp([9,16],{192:function(e,n){e.exports={render:function(){var e=this,n=e.$createElement;return(e._self._c||n)("div",[e._v("\n  netcard\n  "+e._s(decodeURI(e.$route.params.model))+"\n")])},staticRenderFns:[]}},85:function(e,n,r){var t=r(26)(null,r(192),null,null);e.exports=t.exports}});
+//# sourceMappingURL=9.js.map

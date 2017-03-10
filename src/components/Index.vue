@@ -44,287 +44,291 @@
               {{scope.row.school}}
             </a>
           </template>
-        </el-table-column>
-        <el-table-column label="服务器名称" prop="server"></el-table-column>
-        <el-table-column :label="dayArr[0]" class-name="no-padding">
-          <template scope="scope">
+</el-table-column>
+<el-table-column label="服务器名称" prop="server"></el-table-column>
+<el-table-column :label="dayArr[0]" class-name="no-padding">
+    <template scope="scope">
             <div :class="'klass-'+scope.row.klass0">
               {{scope.row.klass0}}
             </div>
           </template>
-        </el-table-column>
-        <el-table-column :label="dayArr[1]" class-name="no-padding">
-          <template scope="scope">
+</el-table-column>
+<el-table-column :label="dayArr[1]" class-name="no-padding">
+    <template scope="scope">
             <div :class="'klass-'+scope.row.klass1">
               {{scope.row.klass1}}
             </div>
           </template>
-        </el-table-column>
-        <el-table-column :label="dayArr[2]" class-name="no-padding">
-          <template scope="scope">
+</el-table-column>
+<el-table-column :label="dayArr[2]" class-name="no-padding">
+    <template scope="scope">
             <div :class="'klass-'+scope.row.klass2">
               {{scope.row.klass2}}
             </div>
           </template>
-        </el-table-column>
-        <el-table-column :label="dayArr[3]" class-name="no-padding">
-          <template scope="scope">
+</el-table-column>
+<el-table-column :label="dayArr[3]" class-name="no-padding">
+    <template scope="scope">
             <div :class="'klass-'+scope.row.klass3" >
               {{scope.row.klass3}}
             </div>
           </template>
-        </el-table-column>
-        <el-table-column  :label="dayArr[4]" class-name="no-padding">
-          <template scope="scope">
+</el-table-column>
+<el-table-column :label="dayArr[4]" class-name="no-padding">
+    <template scope="scope">
             <div :class="'klass-'+scope.row.klass4">
               {{scope.row.klass4}}
             </div>
           </template>
-        </el-table-column>
-        <el-table-column :label="dayArr[5]"  class-name="no-padding">
-          <template scope="scope">
+</el-table-column>
+<el-table-column :label="dayArr[5]" class-name="no-padding">
+    <template scope="scope">
             <div :class="'klass-'+scope.row.klass5">
               {{scope.row.klass5}}
             </div>
           </template>
-        </el-table-column>
-        <el-table-column :label="dayArr[6]" class-name="no-padding">
-          <template scope="scope">
+</el-table-column>
+<el-table-column :label="dayArr[6]" class-name="no-padding">
+    <template scope="scope">
             <div :class="'klass-'+scope.row.klass6" >
               {{scope.row.klass6}}
             </div>
           </template>
-        </el-table-column>
-      </el-table>
-    </div>
-    <v-footer></v-footer>
-  </div>
+</el-table-column>
+</el-table>
+</div>
+<v-footer></v-footer>
+</div>
 </template>
 <script>
-  import vHeader from './common/Header.vue'
-  import vFooter from './common/Footer.vue'
-  import Store from '../../static/store/store'
-  export default {
-    data(){
-      return {
-        timeSet:'',
-        tableData: [{
-          klass:1,
-          school:'南京大学',
-          event:'内存不足',
-          time:'2017-03-30 15:28'
-        },{
-          klass:2,
-          school:'南京大学',
-          event:'内存不足',
-          time:'2017-03-30 15:28'
-        },{
-            klass:3,
-            school:'南京大学',
-            event:'内存不足',
-            time:'2017-03-30 15:28'
-          },{
-          klass:1,
-          school:'南京大学',
-          event:'内存不足',
-          time:'2017-03-30 15:28'
-        },{
-          klass:2,
-          school:'南京大学',
-          event:'内存不足',
-          time:'2017-03-30 15:28'
-        }
-        ],
-        tableData2:[
-          {
-            school:'南京大学',
-            server:'localhost',
-            klass0:1,
-            klass1:5,
-            klass2:1,
-            klass3:4,
-            klass4:1,
-            klass5:2,
-            klass6:5,
-            sch_id:1
-          },
-          {
-            school:'浙江大学',
-            server:'localhost',
-            klass0:1,
-            klass1:5,
-            klass2:3,
-            klass3:4,
-            klass4:1,
-            klass5:2,
-            klass6:5,
-            sch_id:2
-          },
-          {
-            school:'北京大学',
-            server:'localhost',
-            klass0:1,
-            klass1:5,
-            klass2:3,
-            klass3:4,
-            klass4:1,
-            klass5:2,
-            klass6:5,
-            sch_id:3
-          },
-          {
-            school:'南京大学',
-            server:'localhost',
-            klass0:1,
-            klass1:5,
-            klass2:3,
-            klass3:4,
-            klass4:1,
-            klass5:2,
-            klass6:5,
-            sch_id:4
-          },
-          {
-            school:'南京大学',
-            server:'localhost',
-            klass0:1,
-            klass1:5,
-            klass2:3,
-            klass3:4,
-            klass4:1,
-            klass5:2,
-            klass6:5,
-            sch_id:4
-          },{
-            school:'南京大学',
-            server:'localhost',
-            klass0:1,
-            klass1:5,
-            klass2:3,
-            klass3:4,
-            klass4:1,
-            klass5:2,
-            klass6:5,
-            sch_id:5
-          },{
-            school:'南京大学',
-            server:'localhost',
-            klass0:1,
-            klass1:5,
-            klass2:3,
-            klass3:4,
-            klass4:1,
-            klass5:2,
-            klass6:5,
-            sch_id:6
-          },{
-            school:'南京大学',
-            server:'localhost',
-            klass0:1,
-            klass1:5,
-            klass2:3,
-            klass3:4,
-            klass4:1,
-            klass5:2,
-            klass6:5,
-            sch_id:7
-          },{
-            school:'南京大学',
-            server:'localhost',
-            klass0:1,
-            klass1:5,
-            klass2:3,
-            klass3:4,
-            klass4:1,
-            klass5:2,
-            klass6:5,
-            sch_id:8
-          },{
-            school:'南京大学',
-            server:'localhost',
-            klass0:1,
-            klass1:5,
-            klass2:3,
-            klass3:4,
-            klass4:1,
-            klass5:2,
-            klass6:5,
-            sch_id:8
-          },{
-            school:'南京大学',
-            server:'localhost',
-            klass0:1,
-            klass1:5,
-            klass2:3,
-            klass3:4,
-            klass4:1,
-            klass5:2,
-            klass6:5,
-            sch_id:9
-          },
+    import vHeader from './common/Header.vue'
+    import vFooter from './common/Footer.vue'
+    import Store from '../../static/store/store'
+    import axios from '../request/axios.js'
+    export default {
+        data() {
+            return {
+                timeSet: '',
+                tableData: [{
+                    klass: 1,
+                    school: '南京大学',
+                    event: '内存不足',
+                    time: '2017-03-30 15:28'
+                }, {
+                    klass: 2,
+                    school: '南京大学',
+                    event: '内存不足',
+                    time: '2017-03-30 15:28'
+                }, {
+                    klass: 3,
+                    school: '南京大学',
+                    event: '内存不足',
+                    time: '2017-03-30 15:28'
+                }, {
+                    klass: 1,
+                    school: '南京大学',
+                    event: '内存不足',
+                    time: '2017-03-30 15:28'
+                }, {
+                    klass: 2,
+                    school: '南京大学',
+                    event: '内存不足',
+                    time: '2017-03-30 15:28'
+                }],
+                tableData2: [{
+                        school: '南京大学',
+                        server: 'localhost',
+                        klass0: 1,
+                        klass1: 5,
+                        klass2: 1,
+                        klass3: 4,
+                        klass4: 1,
+                        klass5: 2,
+                        klass6: 5,
+                        sch_id: 1
+                    }, {
+                        school: '浙江大学',
+                        server: 'localhost',
+                        klass0: 1,
+                        klass1: 5,
+                        klass2: 3,
+                        klass3: 4,
+                        klass4: 1,
+                        klass5: 2,
+                        klass6: 5,
+                        sch_id: 2
+                    }, {
+                        school: '北京大学',
+                        server: 'localhost',
+                        klass0: 1,
+                        klass1: 5,
+                        klass2: 3,
+                        klass3: 4,
+                        klass4: 1,
+                        klass5: 2,
+                        klass6: 5,
+                        sch_id: 3
+                    }, {
+                        school: '南京大学',
+                        server: 'localhost',
+                        klass0: 1,
+                        klass1: 5,
+                        klass2: 3,
+                        klass3: 4,
+                        klass4: 1,
+                        klass5: 2,
+                        klass6: 5,
+                        sch_id: 4
+                    }, {
+                        school: '南京大学',
+                        server: 'localhost',
+                        klass0: 1,
+                        klass1: 5,
+                        klass2: 3,
+                        klass3: 4,
+                        klass4: 1,
+                        klass5: 2,
+                        klass6: 5,
+                        sch_id: 4
+                    }, {
+                        school: '南京大学',
+                        server: 'localhost',
+                        klass0: 1,
+                        klass1: 5,
+                        klass2: 3,
+                        klass3: 4,
+                        klass4: 1,
+                        klass5: 2,
+                        klass6: 5,
+                        sch_id: 5
+                    }, {
+                        school: '南京大学',
+                        server: 'localhost',
+                        klass0: 1,
+                        klass1: 5,
+                        klass2: 3,
+                        klass3: 4,
+                        klass4: 1,
+                        klass5: 2,
+                        klass6: 5,
+                        sch_id: 6
+                    }, {
+                        school: '南京大学',
+                        server: 'localhost',
+                        klass0: 1,
+                        klass1: 5,
+                        klass2: 3,
+                        klass3: 4,
+                        klass4: 1,
+                        klass5: 2,
+                        klass6: 5,
+                        sch_id: 7
+                    }, {
+                        school: '南京大学',
+                        server: 'localhost',
+                        klass0: 1,
+                        klass1: 5,
+                        klass2: 3,
+                        klass3: 4,
+                        klass4: 1,
+                        klass5: 2,
+                        klass6: 5,
+                        sch_id: 8
+                    }, {
+                        school: '南京大学',
+                        server: 'localhost',
+                        klass0: 1,
+                        klass1: 5,
+                        klass2: 3,
+                        klass3: 4,
+                        klass4: 1,
+                        klass5: 2,
+                        klass6: 5,
+                        sch_id: 8
+                    }, {
+                        school: '南京大学',
+                        server: 'localhost',
+                        klass0: 1,
+                        klass1: 5,
+                        klass2: 3,
+                        klass3: 4,
+                        klass4: 1,
+                        klass5: 2,
+                        klass6: 5,
+                        sch_id: 9
+                    },
 
 
-        ]
-      }
-    },
-    components:{
-      vHeader,vFooter
-    },
-    computed:{
-      dayArr(){
-        var temp=[];
-        var date=new Date();
-        for (var i =0; i<7;i++){
-          temp.push((date.getMonth()+1)+'月'+(date.getDate())+'日');
-          date =new Date(date.getTime()-24*3600*1000);
+                ]
+            }
+        },
+        components: {
+            vHeader,
+            vFooter
+        },
+        computed: {
+            dayArr() {
+                var temp = [];
+                var date = new Date();
+                for (var i = 0; i < 7; i++) {
+                    temp.push((date.getMonth() + 1) + '月' + (date.getDate()) + '日');
+                    date = new Date(date.getTime() - 24 * 3600 * 1000);
+                }
+                return temp;
+            }
+        },
+        methods: {
+            infoKlass(row, index) {
+                if (row.klass == 1) {
+                    return '';
+                } else if (row.klass == 2) {
+                    return 't-warning'
+                } else if (row.klass == 3) {
+                    return 't-danger'
+                }
+            },
+            klassFormat(row, index) {
+                if (!row.klass) {
+                    return '';
+                } else if (row.klass == 1) {
+                    return '建议';
+                } else if (row.klass == 2) {
+                    return '预警';
+                } else if (row.klass == 3) {
+                    return '异常';
+                }
+            },
+            routerGo(id, name) {
+                localStorage.setItem('school', name)
+                this.$router.push('/main/detail/' + id + '/index');
+            }
+        },
+        created() {
+            var that = this;
+            setInterval(function() {
+                that.timeSet = new Date().toLocaleString()
+            }, 1000);
+            // axios.testAjax({})
+            //     .then(res => {
+            //         console.log(res);
+            //     })
+            //     .catch(err => {
+            //         console.log('获取失败');
+            //     })
         }
-        return temp;
-      }
-    },
-    methods:{
-      infoKlass(row,index){
-        if(row.klass==1){
-          return '';
-        }else if(row.klass==2){
-          return 't-warning'
-        }else if(row.klass==3){
-          return 't-danger'
-        }
-      },
-      klassFormat(row,index){
-        if (!row.klass){
-          return '';
-        }else if(row.klass==1){
-          return  '建议';
-        }else if(row.klass ==2){
-          return '预警';
-        }else if(row.klass==3){
-          return '异常';
-        }
-      },
-      routerGo(id,name){
-        localStorage.setItem('school',name)
-        this.$router.push('/main/detail/'+id+'/index');
-      }
-    },
-    created(){
-      var that=this;
-      setInterval(function () {
-        that.timeSet = new Date().toLocaleString()
-      },1000);
     }
-  }
 </script>
 <style scoped>
-  .summary{
-    width:100%;
-    height:140px;
-    background-color: #fff;
-  }
-  .view-all{
-    margin-bottom: 10px;
-    position: absolute;
-    top:0;
-    right:0;
-  }
+    .summary {
+        width: 100%;
+        height: 140px;
+        background-color: #fff;
+    }
+    
+    .view-all {
+        margin-bottom: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
 </style>

@@ -2,25 +2,516 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d452c12-b7b5-4f82-8853-afea36ec1270" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Hello.vue" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/theme-green/fonts/element-icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/theme-green/fonts/element-icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/element-icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/fonts/texb.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_downloads/ELDocs.tmbundle.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_images/appflowchart.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_images/smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/ci-icon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/comment-bright.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/comment-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/down-pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/file.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/images/ci-icon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/up-pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/objects.inv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/cache/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/cache/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/constants.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/doctypes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/foreign_chars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/hooks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/memcached.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/migration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/mimes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/profiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/smileys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/user_agents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/Welcome.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/core/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/helpers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/hooks/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/language/english/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/language/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/logs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/third_party/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/errors/cli/error_404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/errors/cli/error_db.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/errors/cli/error_exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/errors/cli/error_general.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/errors/cli/error_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/errors/cli/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/errors/html/error_404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/errors/html/error_db.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/errors/html/error_exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/errors/html/error_general.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/errors/html/error_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/errors/html/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/errors/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/welcome_message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contributing.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/app.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/color-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/datasource.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/theme-green/color-green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/theme-green/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/0.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/1.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/10.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/10.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/11.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/11.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/12.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/12.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/13.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/13.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/2.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/3.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/4.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/5.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/6.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/7.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/7.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/8.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/9.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/9.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/manifest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/manifest.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/vendor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/vendor.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/store/store.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/request/axios.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Benchmark.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/CodeIgniter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Common.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Exceptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Hooks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Input.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Loader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Output.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Router.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Security.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/URI.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/Utf8.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/compat/hash.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/compat/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/compat/mbstring.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/compat/password.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/compat/standard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/core/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/DB.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/DB_cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/DB_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/DB_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/DB_query_builder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/DB_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/DB_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/cubrid/cubrid_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/cubrid/cubrid_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/cubrid/cubrid_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/cubrid/cubrid_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/cubrid/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/ibase/ibase_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/ibase/ibase_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/ibase/ibase_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/ibase/ibase_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/ibase/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/mssql/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/mssql/mssql_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/mssql/mssql_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/mssql/mssql_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/mssql/mssql_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/mysql/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/mysql/mysql_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/mysql/mysql_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/mysql/mysql_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/mysql/mysql_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/mysqli/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/mysqli/mysqli_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/mysqli/mysqli_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/mysqli/mysqli_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/mysqli/mysqli_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/oci8/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/oci8/oci8_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/oci8/oci8_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/oci8/oci8_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/oci8/oci8_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/odbc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/odbc/odbc_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/odbc/odbc_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/odbc/odbc_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/odbc/odbc_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/pdo_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/pdo_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/pdo_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/pdo_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_4d_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_4d_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_cubrid_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_cubrid_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_dblib_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_dblib_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_firebird_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_firebird_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_ibm_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_ibm_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_informix_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_informix_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_mysql_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_mysql_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_oci_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_oci_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_odbc_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_odbc_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_pgsql_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_pgsql_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_sqlite_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_sqlite_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_sqlsrv_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_sqlsrv_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/postgre/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/postgre/postgre_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/postgre/postgre_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/postgre/postgre_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/postgre/postgre_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/sqlite/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/sqlite/sqlite_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/sqlite/sqlite_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/sqlite/sqlite_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/sqlite/sqlite_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/sqlite3/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/sqlite3/sqlite3_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/sqlite3/sqlite3_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/sqlite3/sqlite3_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/sqlite3/sqlite3_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/sqlsrv/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/sqlsrv/sqlsrv_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/sqlsrv/sqlsrv_forge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/sqlsrv/sqlsrv_result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/drivers/sqlsrv/sqlsrv_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/database/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/fonts/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/array_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/captcha_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/cookie_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/date_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/directory_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/download_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/email_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/file_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/form_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/html_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/inflector_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/language_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/number_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/path_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/security_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/smiley_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/string_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/text_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/typography_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/url_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/helpers/xml_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/language/english/calendar_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/language/english/date_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/language/english/db_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/language/english/email_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/language/english/form_validation_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/language/english/ftp_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/language/english/imglib_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/language/english/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/language/english/migration_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/language/english/number_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/language/english/pagination_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/language/english/profiler_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/language/english/unit_test_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/language/english/upload_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/language/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Cache/Cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_apc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_dummy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_file.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_memcached.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_redis.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_wincache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Cache/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Calendar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Cart.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Email.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Encrypt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Encryption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Form_validation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Ftp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Image_lib.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Javascript.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Javascript/Jquery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Javascript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Migration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Pagination.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Parser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Profiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Session/Session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Session/SessionHandlerInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Session/Session_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/Session_database_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/Session_files_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/Session_memcached_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/Session_redis_driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Session/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Trackback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Typography.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Unit_test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/User_agent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Xmlrpc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Xmlrpcs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/Zip.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/libraries/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/.buildinfo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/DCO.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/basic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/css/badge_only.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/css/citheme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/css/theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/doctools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/js/oldtheme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/js/theme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/pygments.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/searchtools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/_static/websupport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/changelog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/contributing/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/database/caching.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/database/call_function.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/database/configuration.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/database/connecting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/database/db_driver_reference.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/database/examples.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/database/forge.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/database/helpers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/database/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/database/metadata.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/database/queries.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/database/query_builder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/database/results.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/database/transactions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/database/utilities.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/documentation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/alternative_php.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/ancillary_classes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/autoloader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/caching.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/cli.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/common_functions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/compatibility_functions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/controllers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/core_classes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/creating_drivers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/creating_libraries.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/credits.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/drivers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/environments.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/errors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/helpers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/hooks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/libraries.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/managing_apps.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/models.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/profiling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/requirements.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/reserved_names.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/routing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/security.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/styleguide.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/urls.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/views.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/general/welcome.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/genindex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/array_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/captcha_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/cookie_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/date_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/directory_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/download_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/email_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/file_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/form_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/html_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/inflector_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/language_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/number_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/path_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/security_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/smiley_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/string_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/text_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/typography_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/url_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/helpers/xml_helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/downloads.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/troubleshooting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_120.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_130.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_131.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_132.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_133.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_140.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_141.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_150.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_152.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_153.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_154.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_160.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_161.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_162.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_163.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_170.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_171.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_172.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_200.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_201.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_202.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_203.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_210.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_211.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_212.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_213.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_214.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_220.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_221.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_222.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_223.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_300.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_301.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_302.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_303.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_304.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_305.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_306.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_310.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_311.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_312.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_313.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrade_b11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/installation/upgrading.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/benchmark.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/caching.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/calendar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/cart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/config.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/email.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/encrypt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/encryption.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/file_uploading.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/form_validation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/ftp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/image_lib.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/input.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/javascript.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/language.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/loader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/migration.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/output.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/pagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/parser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/security.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/sessions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/trackback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/typography.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/unit_testing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/uri.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/user_agent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/xmlrpc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/libraries/zip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/license.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/overview/appflow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/overview/at_a_glance.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/overview/features.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/overview/getting_started.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/overview/goals.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/overview/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/overview/mvc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/searchindex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/tutorial/conclusion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/tutorial/create_news_items.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/tutorial/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/tutorial/news_section.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_guide/tutorial/static_pages.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/xunjian.iml" afterPath="$PROJECT_DIR$/.idea/xunjian.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/build.js" afterPath="$PROJECT_DIR$/build/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/webpack.prod.conf.js" afterPath="$PROJECT_DIR$/build/webpack.prod.conf.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/index.js" afterPath="$PROJECT_DIR$/config/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debug.log" afterPath="$PROJECT_DIR$/debug.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Index.vue" afterPath="$PROJECT_DIR$/src/components/Index.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Login.vue" afterPath="$PROJECT_DIR$/src/components/Login.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/common/Footer.vue" afterPath="$PROJECT_DIR$/src/components/common/Footer.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/detail/list/CPU.vue" afterPath="$PROJECT_DIR$/src/components/detail/list/CPU.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/detail/list/Connections.vue" afterPath="$PROJECT_DIR$/src/components/detail/list/Connections.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/detail/list/Index.vue" afterPath="$PROJECT_DIR$/src/components/detail/list/Index.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/detail/process/Index.vue" afterPath="$PROJECT_DIR$/src/components/detail/process/Index.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/overview/Index.vue" afterPath="$PROJECT_DIR$/.svn/wc.db-journal" />
     </list>
     <ignored path="xunjian.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,103 +534,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1406">
-              <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Header.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/common/Header.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1966">
-              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Index.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Index.vue">
+      <file leaf-file-name="build.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/build.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="990">
-              <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-              <folding>
-                <element signature="e#4207#7663#0" expanded="false" />
-                <element signature="e#4249#4362#0" expanded="false" />
-                <element signature="e#4363#4476#0" expanded="false" />
-                <element signature="e#4477#4600#0" expanded="false" />
-                <element signature="e#4601#4714#0" expanded="false" />
-                <element signature="e#7730#7997#0" expanded="false" />
-                <element signature="e#8039#8226#0" expanded="false" />
-                <element signature="e#8256#8488#0" expanded="false" />
-                <element signature="e#8513#8622#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Footer.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/common/Footer.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Index.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/detail/process/Index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Login.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -148,11 +547,41 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding>
                 <element signature="e#140#161#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.dev.conf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.base.conf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/webpack.base.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="739">
+              <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -178,7 +607,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/static/store/store.js" />
         <option value="$PROJECT_DIR$/src/components/detail/Index.vue" />
         <option value="$PROJECT_DIR$/src/components/detail/environment/Index.vue" />
@@ -196,18 +624,19 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/detail/list/CPU.vue" />
         <option value="$PROJECT_DIR$/src/components/hello2.vue" />
-        <option value="$PROJECT_DIR$/src/App.vue" />
         <option value="$PROJECT_DIR$/src/components/Hello.vue" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/src/components/Login.vue" />
         <option value="$PROJECT_DIR$/src/components/Index.vue" />
         <option value="$PROJECT_DIR$/src/components/detail/list/Connections.vue" />
-        <option value="$PROJECT_DIR$/config/index.js" />
-        <option value="$PROJECT_DIR$/src/components/common/Header.vue" />
         <option value="$PROJECT_DIR$/src/components/common/Footer.vue" />
         <option value="$PROJECT_DIR$/src/components/detail/process/Index.vue" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/common/Header.vue" />
+        <option value="$PROJECT_DIR$/src/App.vue" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/config/index.js" />
       </list>
     </option>
   </component>
@@ -234,7 +663,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -277,101 +706,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EMOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EMOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EMOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EMOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EMOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EMOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="detail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EMOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EMOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="detail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="process" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EMOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EMOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -535,12 +870,13 @@
       <workItem from="1489051755818" duration="619000" />
       <workItem from="1489052394006" duration="802000" />
       <workItem from="1489053564125" duration="160000" />
-      <workItem from="1489109877112" duration="8424000" />
+      <workItem from="1489109877112" duration="12413000" />
+      <workItem from="1489129638217" duration="4813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56438000" />
+    <option name="totallyTimeSpent" value="65251000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,30 +888,57 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1484375" sideWeight="0.8237885" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26238146" sideWeight="0.8237885" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5021097" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5021097" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.88503253" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.17621145" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3132275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6507592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5021097" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.17621145" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6507937" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.259375" sideWeight="0.8237885" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -601,64 +964,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/detail/list/CPU.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Hello.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/main.css" />
-    <entry file="file://$PROJECT_DIR$/src/components/detail/about/Index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/overview/Index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/theme-green/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/store/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -708,13 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/detail/common/Header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/detail/list/Leftbar.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -750,44 +1048,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/detail/list/CPU.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/hello2.vue" />
-    <entry file="file://$PROJECT_DIR$/build/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/dev-client.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -795,7 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,11 +1067,212 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1980">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/vue-loader.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.prod.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1410">
+          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Hello.vue" />
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1406">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/overview/Index.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/common/Footer.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/detail/process/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/detail/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/img/logo.c5db366.png" />
+    <entry file="file://$PROJECT_DIR$/src/assets/student-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/detail/about/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/detail/common/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/detail/list/Connections.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/detail/list/CPU.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-857">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1140">
+          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-955">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/prod.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dev.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -817,174 +1282,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/webpack.base.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack.prod.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1410">
-          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Hello.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/detail/Index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="87" lean-forward="false" selection-start-line="0" selection-start-column="80" selection-end-line="0" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/prod.env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/dev.env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/detail/list/Connections.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1406">
-          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/detail/process/Index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-          <folding>
-            <element signature="e#4207#7663#0" expanded="false" />
-            <element signature="e#4249#4362#0" expanded="false" />
-            <element signature="e#4363#4476#0" expanded="false" />
-            <element signature="e#4477#4600#0" expanded="false" />
-            <element signature="e#4601#4714#0" expanded="false" />
-            <element signature="e#7730#7997#0" expanded="false" />
-            <element signature="e#8039#8226#0" expanded="false" />
-            <element signature="e#8256#8488#0" expanded="false" />
-            <element signature="e#8513#8622#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/common/Header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1966">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/common/Footer.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="739">
+          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
           <folding />
         </state>
       </provider>

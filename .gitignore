@@ -4,3 +4,12 @@ dist/
 npm-debug.log
 yarn-error.log
 .idea/
+application/
+system/
+user_guide/
+composer.json
+contributing.md
+index.php
+license.txt
+readme.rst
+.svn/

@@ -1,0 +1,2 @@
+webpackJsonp([8,16],{200:function(n,e){n.exports={render:function(){var n=this,e=n.$createElement;return(n._self._c||e)("div",[n._v("\n  storage\n")])},staticRenderFns:[]}},86:function(n,e,t){var r=t(26)(null,t(200),null,null);n.exports=r.exports}});
+//# sourceMappingURL=8.js.map
