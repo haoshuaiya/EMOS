@@ -24,75 +24,99 @@
   </div>
 </template>
 <script>
-  export default{
-    data(){
-      return {
-        ruleForm: {
-          username: '',
-          password: ''
+    export default {
+        data() {
+            return {
+                ruleForm: {
+                    username: '',
+                    password: ''
+                },
+                rules: {
+                    // 登录判断，可以自己写自定义规则
+                    username: [{
+                            required: true,
+                            message: '请输入用户名'
+                        }, {
+                            min: 3,
+                            max: 15,
+                            message: '用户名在3到15个字符'
+                        }
+                        //            {type:'email',message:'不合法邮箱',trigger:'blur'}
+                    ],
+                    password: [{
+                        required: true,
+                        message: '请输入密码'
+                    }]
+                }
+            }
         },
-        rules: {
-          username: [
-            {required: true, message: '请输入用户名'},
-            {min:3,max:15,message:'用户名在3到15个字符'}
-//            {type:'email',message:'不合法邮箱',trigger:'blur'}
-          ],
-          password: [
-            {required: true, message: '请输入密码'}
-          ]
+        methods: {
+            // 登录
+            submitForm(formName) {
+                const self = this;
+                self.$refs[formName].validate((valid) => {
+                    if (valid) {
+                        localStorage.setItem('username', self.ruleForm.username);
+                        self.$router.push('/main')
+                    } else {
+                        console.log('error submit !')
+                        return false;
+                    }
+                })
+            }
         }
-      }
-    },
-    methods: {
-      submitForm(formName){
-        const self =this;
-        self.$refs[formName].validate((valid) => {
-          if (valid) {
-            localStorage.setItem('username', self.ruleForm.username);
-            self.$router.push('/main')
-          } else {
-            console.log('error submit !')
-            return false;
-          }
-        })
-      }
     }
-  }
 </script>
 <style scoped>
-  .login-wrap{
-    width:100%;
-    height:100%;
-    position: relative;
-  }
-  .login-box{
-    width:500px;
-    height:400px;
-    position: absolute;
-    top:calc(50% - 300px);
-    left:calc(50% - 250px);
-    text-align: center;
-  }
-  .login-head{
-    color: #fff;
-    margin-bottom: 30px;
-    /*text-indent: 3em;*/
-  }
-  .login-head h1{
-    font-weight: normal;
-  }
-  .login-main{
-    width:350px;
-    height:230px;
-    background-color: #fff;
-    padding:20px;
-    margin:0 auto;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    border-radius: 4px;
-  }
-  .login-btn{
-    width:100%;
-  }
+    .login-wrap {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .login-box {
+        width: 500px;
+        height: 400px;
+        position: absolute;
+        top: calc(50% - 300px);
+        left: calc(50% - 250px);
+        text-align: center;
+    }
+    
+    .login-head {
+        color: #fff;
+        margin-bottom: 30px;
+        /*text-indent: 3em;*/
+    }
+    
+    .login-head h1 {
+        font-weight: normal;
+        font-size: 30px;
+    }
+    
+    .login-main {
+        width: 350px;
+        height: 230px;
+        background-color: #fff;
+        padding: 20px;
+        margin: 0 auto;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+    
+    .login-btn {
+        width: 100%;
+    }
+    .el-button--primary {
+        color: #fff;
+        background-color: #07c4ac;
+        border-color: #16ac98;
+    }
+    .el-button--primary:focus, .el-button--primary:hover {
+        color: #fff;
+        background-color: #059f8b;
+        border: 1px solid #16ac98;
+    }
 </style>

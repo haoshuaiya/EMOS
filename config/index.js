@@ -35,6 +35,13 @@ module.exports = {
             //         '^/Api': '/APi'
             //     }
             // }
+            '/index.php': {
+                target: 'http://www.test.com',
+                changeOrigin: true,
+                pathRewrite: {
+                    '^/index.php': '/index.php'
+                }
+            }
         },
         // CSS Sourcemaps off by default because relative paths are "buggy"
         // with this option, according to the CSS-Loader README

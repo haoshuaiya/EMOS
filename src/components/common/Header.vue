@@ -51,30 +51,59 @@
   }
 </script>
 <style scoped>
+  .el-menu--dark {
+    height: 55px;
+    background-color: #323c51;
+    border-bottom: 1px solid #eaebed;
+  }
   .logo{
     float: left;
-    margin-right: 200px;
+    height: 54px;
+    padding: 12px 20px 13px 20px;
+    margin-right: 65px;
+  }
+  .el-menu--horizontal .el-menu-item {
+    float: left;
+    height: 54px;
+    line-height: 54px;
+    border-bottom: 2px solid transparent;
+  }
+  .el-menu-item, .el-submenu__title {
+    font-size: 16px;
+  }
+  .el-menu--horizontal.el-menu--dark .el-submenu .el-menu-item.is-active, .el-menu-item.is-active {
+    color: #fff;
+    border-bottom: 2px solid #4990e2;
   }
   .user-info{
     float: right;
-    height:100%;
-    line-height:60px;
-    padding-right: 50px;
+    height: 54px;
+    line-height: 54px;
+    padding-right: 40px;
     color: #fff;
+  }
+  .el-dropdown {
+    font-size: 16px;
+    height: 54px;
+    line-height: 54px;
   }
   .user-info .el-dropdown-link{
     position: relative;
-    display: inline-block;
-    padding-left: 50px;
+    display: block;
+    padding-left: 40px;
     color: #fff;
     cursor: pointer;
     vertical-align: middle;
+    max-width: 110px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .user-info img{
-    width:40px;
-    height:40px;
+    width:29px;
+    height:29px;
     position: absolute;
-    top:10px;
+    top:13px;
     left:0;
     border-radius: 50%;
   }

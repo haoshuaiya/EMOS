@@ -20,7 +20,7 @@ axios.interceptors.request.use((config) => {
 
 //返回状态判断
 axios.interceptors.response.use((res) => {
-    if (!res.data.success) {
+    if (!res.data) {
         // _.toast(res.data.msg);
         return Promise.reject(res);
     }
@@ -45,7 +45,43 @@ export function fetch(url, params) {
 }
 
 export default {
-    // testAjax(params) {
-    //     return fetch('http://ceshi.mtts.org.cn/Api/Evaluate/show_collection/token/821ead1399e6c52cb681d4ef1c4d5895sYSGZYCLqtuG3aTcs5TYypuKnKCBndPNgLKMsa6HenA', params)
-    // }
+    // 获取全部数据
+    getLeftBar(params) {
+        return fetch('/index.php/schoolsummary', params)
+    },
+    // 获取cpu数据
+    getCPUData(params) {
+        return fetch('/index.php/schoolone/cpu', params)
+    },
+    // 获取系统负载
+    getSysLoad(params) {
+        return fetch('/index.php/schoolone/sysload', params)
+    },
+    // 获取内存数据
+    getMemData(params) {
+        return fetch('/index.php/schoolone/mem', params)
+    },
+    // 获取网络连接
+    getLinkData(params) {
+        return fetch('/index.php/schoolone/netLinks', params)
+    },
+    // 获取磁盘数据
+    getDiskData(params) {
+        return fetch('/index.php/schoolone/disk', params)
+    },
+    // 获取网卡数据
+    getNetcardData(params) {
+        return fetch('/index.php/schoolone/netcard', params)
+    },
+
+    // 获取进程数据
+    getProcessData(params) {
+        return fetch('/index.php/schoolone/process', params)
+    },
+    // 获取环境数据
+
+    getEnvData(params) {
+        return fetch('/index.php/schoolone/env', params)
+    }
+
 }
