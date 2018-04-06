@@ -103,12 +103,12 @@
 <script>
     import vHeader from './common/Header.vue'
     import vFooter from './common/Footer.vue'
-    import Store from '../../static/store/store'
     import axios from '../request/axios.js'
     export default {
         data() {
             return {
                 timeSet: '',
+                // 概览数据
                 tableData: [{
                     klass: 1,
                     school: '南京大学',
@@ -267,6 +267,7 @@
             vFooter
         },
         computed: {
+            // 由今天往前推七天日期数组
             dayArr() {
                 var temp = [];
                 var date = new Date();
@@ -278,6 +279,7 @@
             }
         },
         methods: {
+            // 条件渲染cell样式
             infoKlass(row, index) {
                 if (row.klass == 1) {
                     return '';
@@ -287,6 +289,7 @@
                     return 't-danger'
                 }
             },
+            // 条件输出
             klassFormat(row, index) {
                 if (!row.klass) {
                     return '';
@@ -305,20 +308,24 @@
         },
         created() {
             var that = this;
+            // 时间显示
             setInterval(function() {
                 that.timeSet = new Date().toLocaleString()
             }, 1000);
-            // axios.testAjax({})
-            //     .then(res => {
-            //         console.log(res);
-            //     })
-            //     .catch(err => {
-            //         console.log('获取失败');
-            //     })
         }
     }
 </script>
 <style scoped>
+    .content {
+        top: 55px;
+    }
+    .crumbs {
+        margin-bottom: 24px;
+    }
+    .el-breadcrumb {
+        font-size: 16px;
+        line-height: 1;
+    }
     .summary {
         width: 100%;
         height: 140px;

@@ -15,5 +15,26 @@ new Vue({
     el: '#app',
     router,
     template: '<App/>',
-    components: { App }
+    components: { App },
+    data: {
+        allState: {
+            cpu: {
+                used: 0
+            },
+            load: {
+                'used': 0
+            },
+            storage: {
+                'all': 0,
+                'used': 0,
+                'rate': 0
+            },
+            connection: 0,
+            disks: [],
+            netcards: [],
+            ifNginx: true,
+            ifApache: true,
+            ifUpload: true
+        }
+    }
 });

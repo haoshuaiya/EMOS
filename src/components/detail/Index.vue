@@ -14,27 +14,23 @@
   </div>
 </template>
 <script>
-  import vHeader from './common/Header.vue'
-  import vFooter from '../common/Footer.vue'
-  import Store from '../../../static/store/store'
-  export default {
-    data(){
-      return {
-        school:localStorage.getItem('school'),
-        cardArr:[
-          {
+    import vHeader from './common/Header.vue'
+    import vFooter from '../common/Footer.vue'
+    export default {
+        data() {
+            return {
+                school: localStorage.getItem('school'),
+                cardArr: [{
 
-          }
-        ]
-      }
-    },
-    components:{
-      vHeader,vFooter
+                }]
+            }
+        },
+        components: {
+            vHeader,
+            vFooter
+        }
     }
-  }
 </script>
 <style scoped>
-  .content{
-    margin-top: 20px;
-  }
+    
 </style>

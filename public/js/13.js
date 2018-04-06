@@ -1,2 +1,2 @@
-webpackJsonp([13,16],{203:function(n,e){n.exports={render:function(){var n=this,e=n.$createElement;return(n._self._c||e)("div",[n._v("\n  environment\n")])},staticRenderFns:[]}},78:function(n,e,t){var r=t(26)(null,t(203),null,null);n.exports=r.exports}});
+webpackJsonp([13,19],{209:function(n,e){n.exports={render:function(){var n=this,e=n.$createElement;return(n._self._c||e)("div",[n._v("\n\tnginx\n")])},staticRenderFns:[]}},87:function(n,e,t){var r=t(26)(null,t(209),null,null);n.exports=r.exports}});
 //# sourceMappingURL=13.js.map
