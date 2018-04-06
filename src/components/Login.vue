@@ -2,7 +2,7 @@
   <div class="login-wrap">
     <div class="login-box">
       <div class="login-head">
-        <h1>课立方运维管理系统</h1>
+        <h1>课立方运维管理系统</h1>  
       </div>
       <div class="login-main">
         <el-form :model="ruleForm" :rules="rules" ref="ruleForm" >
